@@ -5,7 +5,7 @@ require('dotenv').config();
 // Use for frontend connect
 const cors = require('cors');
 const corsOptions = {
-    origin: 'http://localhost:5174',
+    origin: process.env.FRONTEND_URL,
     credentials: true
 };
 
