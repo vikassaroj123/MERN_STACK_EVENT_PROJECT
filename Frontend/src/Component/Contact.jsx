@@ -11,7 +11,7 @@ const Contact = () => {
   const handleSendMessage = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("https://weak-teal-chinchilla-hat.cyclic.app/send", {
+      const response = await axios.post("https://mern-stack-event-project.onrender.com/send", {
         name,
         email,
         subject,
